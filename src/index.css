@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-all;
+}
+
+body {
+  @apply bg-gradient-to-br from-cyan-50 to-cyan-200;
+}
