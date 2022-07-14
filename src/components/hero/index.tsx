@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div class="flex w-full flex-col md:flex-row gap-4 justify-center items-center h-screen border-b-4 border-l-4 border-l-black border-b-black">
+    <div class="flex w-full flex-col md:flex-row gap-4 justify-center items-center h-screen border-b-[3px] md:border-b-0 border-b-black md:border-l-[3px] md:border-l-black">
       <div class="flex-col w-full text-center md:w-[50%] md:text-left relative px-4">
         <h1 class="text-4xl font-bold">kelz-labs</h1>
         <p class="text-lg mt-1">

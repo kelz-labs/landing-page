@@ -25,7 +25,7 @@ const Repositories = () => {
   }, []);
 
   return (
-    <div class="relative border-r-4 border-r-black w-full">
+    <div class="relative md:border-r-[3px] md:border-r-black w-full">
       <img
         src="/img/dot-grid.png"
         alt="dot-grid"
