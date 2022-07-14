@@ -3,7 +3,7 @@ import { createEffect, createSignal } from "solid-js";
 interface Irepositories {
   name: string;
   description: string;
-  url: string;
+  html_url: string;
   language: string;
 }
 
@@ -36,7 +36,7 @@ const Repositories = () => {
         <h1 class="text-3xl font-bold">Repositories</h1>
         <div class="grid grid-cols-1 relative mt-5 w-[80%] gap-4 md:grid-cols-2 lg:grid-cols-3 grid-rows-1">
           {repos().map((repo: Irepositories) => (
-            <a href={repo.url}>
+            <a href={repo.html_url} target="_blank">
               <div class="flex flex-col p-4 hover:scale-105 duration-200 transition-all cursor-pointer bg-cyan-300 rounded-sm">
                 <h2 class="font-bold text-2xl">{repo.name}</h2>
                 <p class="font-medium">{repo.description}</p>
