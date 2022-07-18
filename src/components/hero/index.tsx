@@ -8,7 +8,7 @@ const Hero = () => {
         </p>
       </div>
       <img
-        src="https://avatars.githubusercontent.com/u/83625557?s=250&v=4"
+        src="https://avatars.githubusercontent.com/u/77146709?v=4"
         alt="Hero"
         class="rounded-full"
       />
