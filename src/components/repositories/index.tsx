@@ -17,7 +17,6 @@ const Repositories = () => {
     const data = await response.json();
 
     setRepos(data);
-    console.log(data);
   };
 
   createEffect(() => {
